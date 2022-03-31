@@ -322,7 +322,7 @@ typically a URL-safe version of an article's title. We can use the
     // the EventInterface class
     use Cake\Event\EventInterface;
 
-    // Add the following method.
+    // Add the following method to the ArticlesTable class
 
     public function beforeSave(EventInterface $event, $entity, $options)
     {
